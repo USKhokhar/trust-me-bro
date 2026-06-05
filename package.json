@@ -3,7 +3,7 @@
   "displayName": "Trust Me Bro",
   "description": "Dependency trust intelligence for modern developers. Continuously monitors your dependencies for compromises, vulnerabilities, and supply chain risks.",
   "version": "0.1.0",
-  "publisher": "https://github.com/uskhokhar",
+  "publisher": "uskhokhar",
   "license": "MIT",
   "icon": "resources/icon.png",
   "engines": {

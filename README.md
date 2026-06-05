@@ -6,7 +6,9 @@ Trust Me Bro is a VS Code extension that continuously monitors your project's de
 
 No manual scans. No dashboards. Just ambient trust awareness while you code.
 
-![Sidebar showing SOS alerts and dependency trust states](media/sidebar.png)
+
+![Status bar showing trust summary](media/statusbar.png)
+
 
 ## Features
 
@@ -19,8 +21,6 @@ No manual scans. No dashboards. Just ambient trust awareness while you code.
 - **Multi-Lockfile Support** — Works with `package-lock.json`, `yarn.lock`, and `pnpm-lock.yaml`.
 - **Multi-Root Workspaces** — Monitors each workspace root independently.
 - **Offline Resilient** — Caches advisory data locally. Works offline with stale-but-visible trust state.
-
-![Status bar showing trust summary](media/statusbar.png)
 
 ## How It Works
 

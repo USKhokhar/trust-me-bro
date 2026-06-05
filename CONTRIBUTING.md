@@ -48,4 +48,4 @@ Open this folder in the Extension Development Host.
 
 ## Reporting security issues
 
-If you find a security vulnerability in the extension itself, please email me directly at `contact.uskhokhar@gmail.com` instead of opening a public issue.
+If you find a security vulnerability in the extension itself, please email me directly at `dev.uskhokhar@hotmail.com` instead of opening a public issue.
