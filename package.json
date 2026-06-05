@@ -1,0 +1,111 @@
+{
+  "name": "trust-me-bro",
+  "displayName": "Trust Me Bro",
+  "description": "Dependency trust intelligence for modern developers. Continuously monitors your dependencies for compromises, vulnerabilities, and supply chain risks.",
+  "version": "0.1.0",
+  "publisher": "https://github.com/uskhokhar",
+  "license": "MIT",
+  "icon": "resources/icon.png",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "security",
+    "dependencies",
+    "supply-chain",
+    "npm",
+    "vulnerabilities",
+    "trust"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uskhokhar/trust-me-bro"
+  },
+  "bugs": {
+    "url": "https://github.com/uskhokhar/trust-me-bro/issues"
+  },
+  "main": "./out/extension.js",
+  "activationEvents": [
+    "workspaceContains:**/package-lock.json",
+    "workspaceContains:**/yarn.lock",
+    "workspaceContains:**/pnpm-lock.yaml"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "trustMeBro.scanDependencies",
+        "title": "Trust Me Bro: Scan Dependencies",
+        "icon": "$(refresh)"
+      },
+      {
+        "command": "trustMeBro.showPanel",
+        "title": "Trust Me Bro: Show Panel"
+      },
+      {
+        "command": "trustMeBro.forceRefresh",
+        "title": "Trust Me Bro: Force Refresh (Clear Cache)"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "trustMeBro",
+          "title": "Trust Me Bro",
+          "icon": "resources/icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "trustMeBro": [
+        {
+          "id": "trustMeBro.dependencyTree",
+          "name": "Dependencies"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "Trust Me Bro",
+      "properties": {
+        "trustMeBro.pollInterval": {
+          "type": "number",
+          "default": 30,
+          "description": "Advisory check interval in minutes."
+        }
+      }
+    },
+    "menus": {
+      "view/title": [
+        {
+          "command": "trustMeBro.scanDependencies",
+          "when": "view == trustMeBro.dependencyTree",
+          "group": "navigation"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "test": "vitest run",
+    "lint": "eslint src",
+    "package": "vsce package"
+  },
+  "dependencies": {
+    "semver": "^7.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/semver": "^7.5.0",
+    "@types/vscode": "^1.85.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "@vscode/vsce": "^3.0.0",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.0",
+    "vitest": "^4.1.8"
+  }
+}
