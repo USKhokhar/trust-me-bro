@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=uskhokhar.trust-me-bro"><img src="https://img.shields.io/badge/VS%20Code-Marketplace-007ACC?logo=visual-studio-code" alt="VS Code Marketplace" /></a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=uskhokhar.trust-me-bro-vsc"><img src="https://img.shields.io/badge/VS%20Code-Marketplace-007ACC?logo=visual-studio-code" alt="VS Code Marketplace" /></a>
   <a href="https://img.shields.io/badge/version-0.1.0-green"><img src="https://img.shields.io/badge/version-0.1.0-green" alt="Version" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT License" /></a>
 </p>
@@ -43,7 +43,7 @@ Alerts are surfaced through:
 
 ## Getting Started
 
-1. Install the extension from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=uskhokhar.trust-me-bro).
+1. Install the extension from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=uskhokhar.trust-me-bro-vsc).
 2. Open a project with a lockfile.
 3. Trust Me Bro activates automatically and begins monitoring.
 
