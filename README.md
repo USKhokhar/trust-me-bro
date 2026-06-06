@@ -17,8 +17,6 @@ Trust Me Bro is a VS Code extension that continuously monitors your project's de
 
 No manual scans. No dashboards. Just ambient trust awareness while you code.
 
-![Sidebar showing SOS alerts and dependency trust states](media/sidebar.png)
-
 ## Features
 
 - **Continuous Monitoring** — Watches your lockfile for changes and periodically checks advisory databases for new threats against your installed packages.
