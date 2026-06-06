@@ -6,11 +6,17 @@
   "publisher": "uskhokhar",
   "license": "MIT",
   "icon": "resources/icon.png",
+  "pricing": "Free",
+  "homepage": "https://marketplace.visualstudio.com/items?itemName=uskhokhar.trust-me-bro",
+  "galleryBanner": {
+    "color": "#1a1a2e",
+    "theme": "dark"
+  },
   "engines": {
     "vscode": "^1.85.0"
   },
   "categories": [
-    "Other"
+    "Linters"
   ],
   "keywords": [
     "security",

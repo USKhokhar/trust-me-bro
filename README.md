@@ -7,8 +7,9 @@
 </p>
 
 <p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License" /></a>
-  <a href="https://marketplace.visualstudio.com/items?itemName=uskhokhar.trust-me-bro"><img src="https://img.shields.io/visual-studio-marketplace/v/uskhokhar.trust-me-bro" alt="VS Code Marketplace" /></a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=uskhokhar.trust-me-bro"><img src="https://img.shields.io/badge/VS%20Code-Marketplace-007ACC?logo=visual-studio-code" alt="VS Code Marketplace" /></a>
+  <a href="https://img.shields.io/badge/version-0.1.0-green"><img src="https://img.shields.io/badge/version-0.1.0-green" alt="Version" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT License" /></a>
 </p>
 
 ---
