@@ -4,6 +4,12 @@ All notable changes to Trust Me Bro will be documented in this file.
 
 This project follows [Semantic Versioning](https://semver.org/).
 
+## [0.1.1] - 2026-06-07
+
+### Fixed
+
+- Extension failing to activate from Marketplace install due to missing runtime dependency in package
+
 ## [0.1.0] - 2026-06-05
 
 First public release.

@@ -5,7 +5,6 @@
 .agents/**
 src/**
 test/**
-node_modules/**
 docs/**
 .gitignore
 tsconfig.json

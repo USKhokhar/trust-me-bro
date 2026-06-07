@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=uskhokhar.trust-me-bro-vsc"><img src="https://img.shields.io/badge/VS%20Code-Marketplace-007ACC?logo=visual-studio-code" alt="VS Code Marketplace" /></a>
-  <a href="https://img.shields.io/badge/version-0.1.0-green"><img src="https://img.shields.io/badge/version-0.1.0-green" alt="Version" /></a>
+  <a href="https://img.shields.io/badge/version-0.1.1-green"><img src="https://img.shields.io/badge/version-0.1.1-green" alt="Version" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT License" /></a>
 </p>
 

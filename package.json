@@ -2,7 +2,7 @@
   "name": "trust-me-bro-vsc",
   "displayName": "TrustMeBro",
   "description": "Dependency trust intelligence for modern developers. Continuously monitors your dependencies for compromises, vulnerabilities, and supply chain risks.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "uskhokhar",
   "license": "MIT",
   "icon": "resources/icon.png",
