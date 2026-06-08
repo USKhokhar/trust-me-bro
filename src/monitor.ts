@@ -41,7 +41,13 @@ export class Monitor implements vscode.Disposable {
         this.scanAll();
       }),
       vscode.workspace.onDidChangeConfiguration((e) => {
-        if (e.affectsConfiguration("trustMeBro.pollInterval")) this.restartPollTimer();
+        if (e.affectsConfiguration("trustMeBro.pollInterval")) {
+          const minutes = vscode.workspace
+            .getConfiguration("trustMeBro")
+            .get<number>("pollInterval", 30);
+          this.cache.updateTtl(minutes);
+          this.restartPollTimer();
+        }
       })
     );
   }
